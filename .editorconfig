@@ -1,0 +1,18 @@
+# Top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+# indent_size intentionally not specified in this section
+indent_style = space
+insert_final_newline = true
+end_of_line = lf
+
+# Source code
+[*.{go}]
+indent_size = 4
+indent_style = tab
+
+# Markdown
+[*.md]
+indent_size = 2
