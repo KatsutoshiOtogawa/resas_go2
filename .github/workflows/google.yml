@@ -43,7 +43,7 @@ jobs:
         region: asia-northeast2
         description: google function for front end api
         ingress_settings: ALLOW_ALL
-        env_vars: "PREFECTURE_API_KEY=${{ secrets.PREFECTURE_API_KEY }}"
+        secret_environment_variables: 'projects/93898855020/secrets/PREFECTURE_API_KEY'
 
     # Example of using the output
     - id: 'test'
